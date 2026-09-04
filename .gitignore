@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Competition data: obtain from SIGNATE; do not redistribute.
+data/*.csv
+FINAL_V2/data/*.csv
+
+# Reproducible generated artifacts.
+FINAL_V2/model_input/
+FINAL_V2/outputs/
+
+.ipynb_checkpoints/
