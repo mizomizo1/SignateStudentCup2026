@@ -1,0 +1,43 @@
+{
+  "status": "VERIFIED_REFERENCE_ARTIFACT",
+  "verified_ci_run": 33707134365,
+  "seeds": [3, 7, 11, 17, 21, 31, 42, 53, 67, 73, 89, 101, 127, 149, 173],
+  "models_per_variant": 75,
+  "feature_shapes": {
+    "stage48": [742, 113],
+    "stage54_core": [742, 117],
+    "stage60_need_capacity": [742, 119]
+  },
+  "thresholds": {
+    "stage48": 0.4790796951438194,
+    "stage54": 0.5653207714485066,
+    "stage60": 0.5586184921185782
+  },
+  "oof_f1": {
+    "stage48": 0.898936170212766,
+    "stage54": 0.8986301369863013,
+    "stage60": 0.9016393442622951
+  },
+  "counts": {
+    "SUBMIT_190_STAGE60.csv": 190,
+    "SUBMIT_205_STAGE48_HEDGE.csv": 205,
+    "SUBMIT_192_STAGE54.csv": 192,
+    "SUBMIT_193_STAGE60_TOPK.csv": 193,
+    "SUBMIT_185_STAGE60_TOPK.csv": 185
+  },
+  "sha256": {
+    "SUBMIT_190_STAGE60.csv": "cff3c0a1ab09ef6e65ed5f6d647ce77313adedf7d817e37bb3841c7139a411ab",
+    "SUBMIT_205_STAGE48_HEDGE.csv": "3915b2310e0756b87113556e030a5e9c6992f4bb4fd7a5eba1414f3649e48ca3",
+    "SUBMIT_192_STAGE54.csv": "b550b5afdae65cfb16d61251faa1ec45cd2a5fdfc7352903a68af59fdc55b21a",
+    "SUBMIT_193_STAGE60_TOPK.csv": "aeaaa9bda263ba0f9ea95eda60893a1b7dfe8e7a7002bbd79a388fb063307fc3",
+    "SUBMIT_185_STAGE60_TOPK.csv": "e07f6834a721adf7e0185ce6737da670ca151dc21e3e3530d539313579648dbc"
+  },
+  "raw_sha256": {
+    "train.csv": "48792d669790f8b25050d60d6a90a924a9e7fd36081d42eb3ede610708c79425",
+    "test.csv": "764633807020d59d53986ad5b4f64297892facc639727e9ecf3a361634b10dcd"
+  },
+  "stage48_model_input_sha256": {
+    "train.csv": "d3ae8f3b180af1c6ad67c4a68487bde9916494e394f120e94ccb796993567a6b",
+    "test.csv": "7c8b24a204be0a47ab7d0251744c7205ba252fd8aad0fd212e6c351988acb298"
+  }
+}
