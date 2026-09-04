@@ -317,7 +317,7 @@ python FINAL_V2/verify_outputs.py
 
 ## 8. データの扱い
 
-`FINAL_V2/data/train.csv` / `test.csv` が無い環境では、同じrepositoryのroot `data/` から同期します。
+この公開リポジトリにはコンペ配布の raw `train.csv` / `test.csv` は含めません。SIGNATEから各自取得し、repository root の `data/` に配置してください。`FINAL_V2/data/train.csv` / `test.csv` が無い場合はそこから同期します。
 
 ただし単にコピーするのではなくraw SHA256を検証します。違うtrain/testを誤って配置した場合は、モデル学習へ進む前に停止します。
 
